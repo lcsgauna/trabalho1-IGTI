@@ -3,7 +3,7 @@
 ## Objetivo
 Criar uma calculadora que recebe dois números e mostrar na tela 12 opções de resultados
 
-## Tecnologia 
+## Tecnologias 
  * HTML5
  * CSS3
  * Javascript
