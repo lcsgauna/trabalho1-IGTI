@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Calculadora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="header-principal">
+            <h1>Super Calculadora</h1>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col s6 first">
+                    <label for="first-number">Primeiro Número (A):</label>
+                    <input type="number" id="first-number" name="first-number">
+                </div>
+                <div class="col s6 second">
+                    <label for="second-number">Segundo Número (B):</label>
+                    <input type="number" id="second-number" name="second-number">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+
+        <h2>Cálculos</h2>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="section">
+                        <h6>Soma (A+B):</h6>
+                        <span id="sum">0</span>
+                        <div class="divider"></div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="section">
+                        <h6>Subtração (A-B):</h6>
+                        <span id="first_subtraction">0</span>
+                        <div class="divider"></div>
+                    </div>
+                </div>
+                 <div class="col s12 m6 l4">
+                    <div class="section">
+                        <h6>Subtração (B-A):</h6>
+                        <span id="second_subtraction">0</span>
+                        <div class="divider"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="section">
+                        <h6>Multiplicação (AxB):</h6>
+                        <span id="multiplication">0</span>
+                        <div class="divider"></div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="section">
+                        <h6>Divisão (A&#247B):</h6>
+                        <span id="first_division">0</span>
+                        <div class="divider"></div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="section">
+                        <h6>Divisão (B&#247A):</h6>
+                        <span id="second_division">0</span>
+                        <div class="divider"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="section">
+                        <h6>Quadrado de a (a²):</h6>
+                        <span id="firstNumber-square">0</span>
+                        <div class="divider"></div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="section">
+                        <h6>Quadrado de b (b²):</h6>
+                        <span id="secondNumber-square">0</span>
+                        <div class="divider"></div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="section">
+                        <h6>Divisores inteiros de a:</h6>
+                        <span id="intDivision-firstNumber">0</span>
+                        <div class="divider"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="section">
+                        <h6>Divisores inteiros de b:</h6>
+                        <span id="intDivision-secondNumber">0</span>
+                        <div class="divider"></div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="section">
+                        <h6>Fatorial de a (a!):</h6>
+                        <span id="factorial-firstNumber">0</span>
+                        <div class="divider"></div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="section">
+                        <h6>Fatorial de b (b!):</h6>
+                        <span id="factorial-secondNumber">0</span>
+                        <div class="divider"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <p>Primeiro Trabalho Prático do Módulo 1 do Bootcamp Desenvolvedor Front-end - <a href="https://www.igti.com.br/">IGTI</a></p>
+        <p>Criado por <a href="https://www.github.com/olucasgauna">Lucas Gauna Samudio</a></p>
+    </footer>
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script defer src="./script.js"></script>
+</body>
+
+</html>
