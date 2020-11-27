@@ -7,4 +7,4 @@ Criar uma calculadora que recebe dois números e mostrar na tela 12 opções de 
  * HTML5
  * CSS3
  * Javascript
- * Materiallize.css
+ * [Materialize.css](https://materializecss.com/getting-started.html)
